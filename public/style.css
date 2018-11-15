@@ -1,0 +1,111 @@
+.vcenter{
+    position: relative;
+    margin-top: 80px;
+    transform: translateX(7%);
+}
+
+.body{
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1cefff, #c0c0aa); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+}
+
+body{
+    background: linear-gradient(270deg, #420451, #a8c0c5, #c08323);
+    background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: #8D0B93;
+    text-align: center;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    flex-direction: column;
+}
+
+img{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    align-self: center;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color:bisque;
+}
+
+.keyword{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: left;
+    color:white;
+}
+
+#icons{
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+/* i{
+    display: inline-flex;
+    justify-content: space-around;
+} */
+
+i {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#myName{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
