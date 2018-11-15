@@ -1,0 +1,23 @@
+{
+  "name": "xyz.maqbool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechbullgt/xyz.maqbool.git"
+  },
+  "author": "Maqbool Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mechbullgt/xyz.maqbool/issues"
+  },
+  "homepage": "https://github.com/mechbullgt/xyz.maqbool#readme"
+}
