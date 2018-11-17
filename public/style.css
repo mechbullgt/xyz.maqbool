@@ -1,13 +1,17 @@
 .vcenter{
-    position: relative;
-    margin-top: 80px;
-    transform: translateX(7%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
 }
 
-.body{
-    background: #c0c0aa;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1cefff, #c0c0aa); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+.card{
+    max-width: 22em;
+    margin-top: 10vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: #8D0B93;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
 }
 
 body{
@@ -40,15 +44,6 @@ body{
         100%{background-position:0% 50%}
     }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border: #8D0B93;
-    text-align: center;
-    display: flex;
-    border-radius: 10px 10px 10px 10px;
-    flex-direction: column;
-}
-
 img{
     margin-top: 10px;
     margin-bottom: 0;
@@ -56,8 +51,7 @@ img{
     align-self: center;
 }
 
-
-a {
+a{
     text-decoration: none;
     font-size: 22px;
     color:bisque;
@@ -72,13 +66,8 @@ a {
 
 #icons{
     margin-top: 10px;
-    max-width: 300px;
+    max-width: 30em;
 }
-
-/* i{
-    display: inline-flex;
-    justify-content: space-around;
-} */
 
 i {
     display: inline-block;
@@ -91,19 +80,21 @@ i {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-button {
+.btn-default {
     border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #0099F7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
+    text-transform: none;
     cursor: pointer;
-    width: 100%;
+    color: white;
+    width: auto;
     font-size: 18px;
+}
+
+.dropdown-menu a{
+    font-size: 12px;
 }
 
 button:hover, a:hover {
