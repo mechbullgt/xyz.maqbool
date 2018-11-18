@@ -14,8 +14,26 @@
     border-radius: 10px 10px 10px 10px;
 }
 
+a.keyword:hover, a.website:hover{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+        background-position: 0 100%;
+        background-size: auto 4px;
+        background-repeat: repeat-x;
+        text-decoration: none;
+}
+
+a.keyword,a.website{
+        background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+          background-position: 0 100%;
+          background-repeat: repeat-x;
+          background-size: 3px 3px;
+        color:white;
+        text-decoration: none;
+}
+
+
 body{
-    background: linear-gradient(270deg, #420451, #a8c0c5, #c08323);
+    background: linear-gradient(210deg, #420451, #a8c0c5, #c08323);
     background-size: 600% 600%;
     
     -webkit-animation: AnimationName 30s ease infinite;
@@ -64,6 +82,14 @@ a{
     color:white;
 }
 
+.website{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: left;
+    color:white;
+    font-size: 20px !important;
+}
+
 #icons{
     margin-top: 10px;
     max-width: 30em;
@@ -71,13 +97,23 @@ a{
 
 i {
     display: inline-block;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    padding: 10px;
+    margin-bottom: 12px;
 }
 
 #myName{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.card-title{
+    font-weight: normal;
+}
+
+h2{
+    text-decoration: none;
+    font-weight: normal;   
 }
 
 .btn-default {
@@ -91,6 +127,21 @@ i {
     color: white;
     width: auto;
     font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-primary {
+    border: none;
+    background: #0099F7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    text-transform: none;
+    cursor: pointer;
+    color: white;
+    width: auto;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .dropdown-menu a{
